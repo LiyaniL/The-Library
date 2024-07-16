@@ -26,6 +26,7 @@ export default defineConfig({
       },
     }),
   ],
+  base: "The-Library",
   define: { 'process.env': {} },
   resolve: {
     alias: {
